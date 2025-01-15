@@ -1,0 +1,69 @@
+Javascript Basics
+
+Javascript - technology use to build websites.
+
+Phone -app
+
+HTML - create content
+CSS - changes appearance
+Javascript - make it interactive
+
+Javascript - Give instrcution to PC. PC follows instrcutions
+
+link: 
+supersimple.dev/js-Basics
+
+Right click - inspect
+
+console
+//three dots - Dock side
+
+code to console:alert
+
+alert('Hello');
+alert('Good Job!')
+
+Console running the code
+
+programming languages: 
+Similar to human languages but for codes
+Javascript // python // Javascript
+
+Math:
+2+2
+10-7
+
+Javascript is CASE-SENSITIVE;
+Modifying web page;
+
+document.body.innerHTML = 'hello';
+// Giving instructions to a computer = code
+// the computer follows our instructions = running the code
+
+js SYNTAX:
+rules we have to follow when using programming language.
+-like grammar
+We need to follow the rules of syntax exactly;
+
+alert'hello');
+--> error, Syntax error
+
+// finish
+Javascript is giving instructions to a PC
+Wrote Javascript code
+Run our code using console
+Syntax
+
+Ex.
+alert('Good morning!');
+alert('Mike!');
+10+5
+20-5
+2+2-5
+
+ADV EX.
+document.body.innerHTML = 'Good morning!';
+document.body.innerHTML = 'Mike!';
+10+8+20
+100-20-50+200
+document.body.innerHTML = '';
