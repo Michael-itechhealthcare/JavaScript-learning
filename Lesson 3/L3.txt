@@ -1,0 +1,149 @@
+Lesson 3: Strings
+
+Create text Session
+
+Strings
+String = text
+
+'Hello'
+alert('Hello);
+'some' + 'text'
+'sometext'
+
+'some' + 'more' +'text'
+< 'somemoretext'
+
+Concatenation
+-> combine strings together
+
+typeof 
+e.g. typeof 2
+< 'number'
+>typeof 'hello'
+< 'string'
+
+'Hello' + 3
+<'hello3'
+<String
+Type coercion
+automatic type conversion
+
+'$28.94'
+Or
+'$' + 20.95 + 7.99
+< '$20.957.99'
+// Not good!
+
+Left to right. As $ is string and 20.95 is num. It will aauto convert to string and add 2 string tgr
+'$' + (20.95 + 7.99)
+< '$28.939999999999998'
+'$' + ((2095 + 799)/100)
+< '$28.94'
+
+> 'Items(' + (1+1) + '): $' +  ((2095 + 799)/100)
+< 'Items(2): $28.94'
+
+alert('Items(' + (1+1) + '): $' +  ((2095 + 799)/100));
+
+3 ways to create string:
+
+1. '...'
+2. "..."
+Use '...' by default // easier to read and type
+Use "..." only if text have '
+e.g. 
+' I'm learning Javascript!'
+"I'm learning Javascript"
+
+Escape Character
+
+character = 1 letter/ number / symbol / escape character () \' )
+
+Hello = 5 characters
+
+>'I\'m learning Javascript'
+<"I'm learning Javascript"
+\" = double quote that is just tex
+
+\n = newline character (Next line (TAB)(Enter)) 
+
+
+alert('some\ntext');
+<some
+<text
+
+
+`hello`
+`...` = template strings
+
+Interpolation
+Insert value directly into a string
+
+-- RECAP --
+Concatenation
+>'Items(' + (1+1) + '): $' + (2095+799) /100  --Concatenation--
+< 'Items(2): $28.94'
+
+
+//
+`Items()`
+
+${} = insert value directly into string
+`Items (${1+1})`
+<'Items (2)'
+
+>`Items(${1+1}):$${(2095 + 799) / 100}`  --interpolation--
+<'Items(2):$28.94'
+
+Concatenation vs Interpolation 
+
+Interpolation is clearer ->> recommended solution
+
+--Multi-line strings
+
+>`some              -- Remember to use (`) next to number 1
+text `              -- Not ',"
+
+< 'some/ntext'
+
+
+// When should we use '...' or `...`
+
+Use '...' by default
+Use `...` when need interpolation / multi-line strings
+
+--What is learnt
+
+1. String = text
+2. Use strings and numbers together
+3. Three ways to create strings:
+'...' // "..." // `...` (template strings)
+4. Escape character \' \n
+5. interpolation + multi-strings
+
+Exercises:
+3a. 'My names is:'
+b.'Mike'
+c. 'My name is:' + ' Mike'
+d. 'Total cost:' + '$' + (3 +5)
+3e. `Total cost: $ ${(3+5)}`
+f. alert(`Total cost: $ ${(3+5)}`);
+g. 'Total cost:' + '$' + ((599+295)/100)
+h. `Total cost: $ ${(599+295)/100}`
+i. alert(`Total cost: $ ${(599+295)/100}`);
+j. alert(`Total cost: $${(599 + 295) / 100}
+Thank you, come again!`);
+
+3k. 'Items(' + (2+2) + '): $' + ((2095*2 + 799*2)/100)
+
+3l. 'Shipping & handling: $' + (499*2/100)
+
+3m. 'Total before tax: $' + (((2095*2 + 799*2)/100) +(499*2/100))
+
+3n. 'Estimated tax (10%): $' +Math.round((((2095*2 + 799*2)/100) +(499*2/100))/100)
+`Estimated tax (10%): $${Math.round((2*2095+2*799+499*2)*0.1)/100}`
+
+3n ans: `Estimated tax (10%): $${Math.round((2 * 2095 + 2 * 799 + 499 + 499) * 0.1) / 100}`
+
+Ultimate:
+`Order total: $${(Math.round((2*2095+2*799+499*2)*0.1)/100) + (((2095*2 + 799*2)/100) +(499*2/100))}`
