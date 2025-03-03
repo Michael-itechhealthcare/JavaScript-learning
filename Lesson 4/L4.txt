@@ -1,0 +1,102 @@
+Lesson 4: 
+HTML, CSS Javascript REview. //Console.log
+
+
+
+HTML = Creates content, bittons, text
+
+CSS = changes appearance
+
+Javascript = makes the website interactive
+
+
+HTML & CSS Review
+
+Setup
+Install a code editor (helps us write and organize code)
+-> VS code
+
+HTML = Hyper Text Markup Language
+Giving instructions to a computer
+
+HTML cant use Console
+
+HTML write in a file.
+
+(1:08:00)
+1;11;09
+<button></button> // create a button
+
+CSS = Cascading Style  - changes the appearance
+
+HTML strcuture: <!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+    </body>
+</html>
+
+VSCode Setup:
+2 spaces per indent
+-line wrapping
+
+
+html
+CSS                     =<style>
+Javascript              =<script>
+<script> put in the end of body
+
+<body>
+X
+X
+X
+<script>
+</script>
+</body>
+
+
+<script> = console run js code
+
+
+html file include CSS and Javascript
+
+
+Script at the bottom of body runs first
+if inside an element like button,
+js will only run when we click the element
+
+
+js
+Comments
+pieces of code that the compute igores
+
+
+Comments
+
+JS comments = //            (same as C)   OR /*  XXX */ for multi-line
+HTML comments <!--XXX-->>
+
+CSS comments  /* XXX  */
+
+Why use comments
+1. provide more info
+
+commenting out the code -> dont want to run some code, dont; want to delte the code
+
+
+
+Console.log();
+console.log = display things in the bracket.
+Can do all calculations and strings
+
+lesson 4 review:
+review basic html + CSS
+Setup vs code
+Load js in html file by 
+<script>, onclick=""
+<script>
+put at last and above <body>
+comments // <!---->> /**/
+console.log
+

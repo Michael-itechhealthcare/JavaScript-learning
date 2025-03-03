@@ -1,0 +1,144 @@
+<!-- <style> </style> (style element) -->
+
+<!DOCTYPE html>   <!--use new html-->
+<html>
+  <head>
+    <title>HTML CSS Review</title>                        <!--title = set the text in the tab display-->
+      <style>
+          /*
+            This is a comment
+            Same multi-line comment with JS
+          */
+      .red-button{    /* CSS selector (select which element to change)*/
+        background-color:red;      /*button fill color-->*/ /*Left side = CSS property, right side = CSS value*/
+        color: white;               /* text color*/
+        border: none;                   /* the border of text box*/
+      }                                   /*space in front of text = indents: make it easier to read*/
+
+      .yellow-button{
+       background-color: yellow;
+
+      }
+      .norm-button{
+        background-color: aqua;
+        color: black;
+        border: none;
+      }                             
+      </style>
+  </head>    <!--<head> = contain information that is not visible(style)-->
+
+
+  <body>
+    <!-- this is a comment-->
+    <!-- Creating a Button with Hello text  -->
+    <button title="Gotcha lol" class = "norm-button" 
+    onclick="
+      alert('Good job!');
+    ">     <!--Add attribute (js)(on click = run js code when click the button)-->
+      hello
+    </button>
+
+
+    <!-- Create paragraph-->
+    <p>
+      paragraph of text
+    </p>
+    <!-- Control R to refresh in brower-->
+
+    <!-- HTML syntax-->
+
+    <!--HTML Elements
+
+    <button>
+    < element name > --HTML TAG (opening tag)
+    matching tag
+    </ element name> (closing tag)
+
+    In between tag = content
+
+
+    -->
+    <!--tag in tag (Nesting)(Element inside an element)-->
+
+    <p> 
+      paragraph of 
+      <button>
+        hello
+      </button>
+      text
+    </p>
+
+    <!--Multiple space are combined into 1 space-->
+    <p>
+      hello world
+    </p>
+
+    <p>
+      hello          world
+    </p> <!--same-->
+
+    <!-- new lines also count as spaces -->
+
+    <p> paragraph of
+      <button>
+        hello
+      </button>
+      text
+    </p>
+
+    <!-- Put content in 1 line to make it more clear  -->
+
+    <button>
+      Hello
+    </button>
+
+    <p>
+      paragraph of something
+    </p>
+
+
+    <!-- web page = a single page -->
+    <!-- e.g. Home page, cart cage -->
+    <!-- With all the page = website -->
+
+    <!-- HTML attribute -->
+    <button title="Waaaaa!" class = "yellow-button"> <!--title (attribute name)= hover over and pop up-->
+      Boom
+    </button>
+
+    <!-- class attribute  = adds a label to an element-->
+
+
+    <button title="Gotcha lol" class = "red-button">
+      Press Here
+    </button>
+    
+    <script>
+      //This is a comment.
+      // This code create a pop-up.
+      alert('hello');
+
+      /*
+      multi
+      line
+      comment
+      */
+    
+      console.log(  2 + 2);      //display whatevers in the brakets, can use strings
+      console.log('some' + 'text');
+    </script>
+
+
+  </body>       <!--<body> = contain everything visible on the page (buttons, paragprh)-->
+</html>    <!--<html> = entire webpage-->
+
+
+
+
+
+
+
+
+
+<!-- HTML strcuture -->
+<!-- html,head,body element -->
