@@ -1,0 +1,185 @@
+1:51:09
+
+Learn about variables
+js
+
+variables = cart quantity
+
+What is variable?
+
+Variable is a container
+
+we can save a value (number or string) inside and use it later!
+
+let //
+let create a new variable
+
+let message = 'hello';
+let calculation = 2+2;
+
+
+Syntax rule for variable:
+
+Let create a new variable
+variable name: (cannot be the word let or numbers)
+X let let = 1;
+Can let let1
+X let 2name = 3;
+Can let n2ame =3;
+Can let name3 =3;
+X special characters
+X let name@$#^&* = 3;
+X let name two = 3;
+Can use let $name =3;
+Can use let _name =3;
+
+
+
+; = end of an instructions
+ = sim to .
+ separate instructions
+
+
+
+
+ Variable re-assignment shortcuts
+
+ += 2 variable = variable + 2
+ -= 2 variable = variable - 2
+ *=2 variable = variable * 2
+ ++ variable = variable + 1
+ -- variable = variable -1
+
+
+Naming convention:
+
+    <script>
+      let cartQuantity = 0;   // why cartQuantity?
+
+    </script>
+
+-> camelCase
+
+capitalize every word except the first word
+
+camelCase is the standard for javasccript
+e.g. oneTwo
+
+
+PascalCase
+-> same as camelCase
+-> except we also capitalize the first word
+
+e.g. OneTwo
+
+kebab-case **
+-> cart-quantity
+combine with -
+(Doesn't work in javascript)
+(Work in HTML and CSS)
+
+snake_case
+->cart_quantity
+Use in other Language
+
+Variable name:
+
+****Understandable but not too long
+
+let c = 0
+c is too short and not Understandable
+
+let quantityOfProductInTheCart = 0
+
+Understandable but too long
+
+
+Create variable
+
+const variable2 = 3;
+
+const = let
+
+However const = can't change its value later
+read - only
+
+
+const a = 3;
+a = 5;
+
+-> error
+
+const makes code safer and easeier to Understand 
+
+Best practice = use 'const' as default
+
+Only use let when need to change variable
+
+
+var 
+
+
+3 ways to create variable
+let, const, var,
+USE const as default
+
+
+var = variable
+
+seldom use var in new javascript code cause there is some problems:
+
+Block Scope: Both let and const are block-scoped, making their behavior more predictable.
+
+javascript
+if (true) {
+  let z = 20;
+  console.log(z); // 20
+}
+console.log(z); // ReferenceError: z is not defined
+Hoisting Behavior: While let and const are also hoisted, they remain in the "temporal dead zone" until initialized, preventing accidental access before declaration.
+
+Immutable Option: const allows you to declare variables that cannot be reassigned, making it ideal for constants and ensuring more robust code.
+
+
+typeof + variables
+
+console.log(typeof 3);
+>> number
+
+console.log(typeof variable2);
+>> type of value inside variable
+
+
+
+In this lesson:
+Learnt:
+1. Variables = a way to save values
+2. Re-assign a variable
+3. Created the Crt Quqntity feature
+4. Shortcuts for re-asigning a variable
+5. naming conventsion and best practices
+6. 3 ways to create a variables: let, const, var
+
+
+2:32:22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
