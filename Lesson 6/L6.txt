@@ -1,0 +1,216 @@
+Booleans and If-statements
+2:32:56
+rock paper siccors game
+
+what are Booleans?
+
+There are only 2 boolean values:
+true, false
+
+
+Purpose of boolean valve:
+represents whether something is true or false
+
+<<
+  <script>
+    true
+    false
+    console.log(3 > 5);
+  </script>
+>> false
+
+syntex rules of Booleans
+don't use 'true'
+it will turn it in string
+
+Comparision Operator:
+> // Greater than
+< // Less than
+>= // greater or equal to 
+<= // less than or equal to
+=== equal to
+!== not equal to
+
+=== vs ==
+== tries to convert both value in same type
+
+e.g.
+<<console.log(5 == '5.00');
+>> true
+
+<<console.log(5 === '5.00');
+>> false
+
+Order of Operations:
+1. (...)
+2. * /
+3. +-
+4. comparision operators
+ e.g.. 
+<<console.log(3>5-5);
+>> True
+
+If statements
+let us write multiple groups of code and decide which code to run
+2:45:21
+
+syntex rules of if-statements
+
+if (condition) {run code here if true}
+else{Branches}     //else is optional // like a tree branch
+
+Use {}**
+
+
+We can have more then 1 condition
+
+elseif() {}
+
+
+Strategy for js
+Think about what steps we need
+Convert those stpes into code
+
+Algorithm
+set of steps to complete a task or to solve a problem
+
+
+Math.random()
+generates a random number between 0 and 1
+e.g. 0.1767546
+0.5673
+
+0<= number<1
+
+Logical Operations
+-can let us combine boolean values
+
+&& and operator
+checks if both side are true
+console.log(true && true)
+>> True
+console.log(true&&false)
+>>false
+
+
+Order of Operations
+()
+*/
++-
+comparision operatorsLofical operators
+&& last priority
+
+
+OR Operator
+
+console.log(true || false);
+>>true
+
+
+Not Operator  !
+console.log(!true);
+>>false
+
+
+SCope:
+a scope limits where a variable exists
+
+Any variable create inside {}
+only exist inside the {}
+
+helps avoid naming conflicts
+
+var vx const vs let
+var will not follow scope
+
+car randomnumber = 0.5// crash even in scope
+
+    if (5) {        //truthy value, behaves just like true
+(0) falsy value, behaves like false
+
+Falsy value:
+false0
+''
+NaN
+undefined
+null
+
+Other are Truthy
+
+why?
+like shortcut
+
+
+    //TernaryOperator？：
+
+    true ? 'truthy' : 'falsy'
+
+    true (condition)
+    ? ''  = if
+    : '' = else
+
+
+     true ? 'truthy' : 'falsy' 
+  
+  = if(true){'truthy'} else {'falsy'}
+
+
+AND Operator &&
+false && value2
+-> stops early
+will not run the code on the right side
+
+Guard Operator &&
+= shortcut of if statements
+
+false && console.log('hello');
+=
+if(condition){console.log('hello);}
+
+    const message = false && 'hello';
+    console.log(message);
+    >>false
+
+    const message = 5 && 'hello';
+    console.log(message);
+    <<hello
+
+    = shortcut of if statment:
+    let message;
+    if(condition){message = 'hello';}
+
+
+OR Operator ||
+value 1 || value2
+checks if at least 1 side is truthy
+
+Also stops early (short-circuits)
+
+Default Operator  || 
+
+    const currency = undefined || 'USD';
+    console.log(currency);
+
+    =
+
+    let currency;
+
+    if(!condition){currency = 'USD';}
+
+
+
+shortcuts for if-statements
+Ternary Operator ?:
+Guard Operator &&
+Default Operator ||
+
+
+Summary:
+Boolean values (turs, false)
+If-statements
+Comparision operators
+Algorithms, 
+Truthy and Falsy values
+shortcuts for if-statments (ternary,guard,Default)
+
+
